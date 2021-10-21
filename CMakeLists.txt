@@ -25,13 +25,9 @@ if (TARGET tinyusb_device)
 pico_enable_stdio_usb(ltc_decode 1)
 pico_enable_stdio_uart(ltc_decode 0)
 
-# create map/bin/hex/uf2 file etc.
-pico_add_extra_outputs(ltc_decode)
-
 elseif(PICO_ON_DEVICE)
 message(WARNING "not building hello_usb because TinyUSB submodule is not initialized in the SDK")
 endif()
-
 
 pico_generate_pio_header(ltc_decode ${CMAKE_CURRENT_LIST_DIR}/differential_manchester.pio)
 
