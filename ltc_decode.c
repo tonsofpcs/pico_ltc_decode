@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: BSD-3-Clause
  * 
- * Modified 2021-10-21 E. Adler
+ * Modified for LTC 2021-10-21 E. Adler
  * 
  */
 
