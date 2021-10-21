@@ -1,6 +1,8 @@
 # LTC Decoder
+# for Raspberry Pi Pico
 
 * Reads LTC and outputs hex right now.  I think the bit order is flipped the whole way?  Trying to decode to usable values.  ~~2021-10-21 EJA
+* LTC input on pin 5 (GP3)
 
 * I set up my toolchain following: https://shawnhymel.com/2096/how-to-set-up-raspberry-pi-pico-c-c-toolchain-on-windows-with-vs-code/ but using mingw64 instead of mingw32
 
