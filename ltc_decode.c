@@ -2,8 +2,11 @@
  * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
  *
  * SPDX-License-Identifier: BSD-3-Clause
+ * Original: differential_manchester.pio
+ * Source: https://github.com/raspberrypi/pico-examples
  * 
  * Modified for LTC 2021-10-21 E. Adler
+ * https://github.com/tonsofpcs/pico_ltc_decode
  * 
  */
 
